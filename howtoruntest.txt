@@ -1,0 +1,8 @@
+example:
+----> serial run test
+./gradlew test --tests "saucedemo.LoginTests"
+----> paralel run test
+./gradlew test
+
+notes:
+check build.gradle.kts line 30 before run
