@@ -27,7 +27,7 @@ tasks.test {
         val suite: String = if (project.hasProperty("suite")) {
             project.property("suite") as String
         } else {
-            "paralel.xml"
+            "smoke.xml"
         }
         println("Run test suite: $suite")
         suiteXmlFiles = listOf(file("src/test/resources/suites/$suite"))
